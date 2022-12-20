@@ -51,29 +51,29 @@
                 <div class="card-body p-5">
                     <h1 class="text-center mb-3">Regístrate</h1>
                     <h6 class="text-center mb-3">Crea tu cuenta en simples pasos para no perderte de las diferentes actividades de este gran evento</h6>
-                    <form class="needs-validation justify-content-center row g-2" novalidate="">
+                    <form method="post" action="./register" class="needs-validation justify-content-center row g-2" novalidate="">
                         <div class="col-md-6 form-floating">
-                          <input type="text" class="form-control" required="" placeholder="Nombre">
+                          <input type="text" name="nombre" class="form-control" required="" placeholder="Nombre">
                           <label for="floatingInput">Ingresa tu nombre</label>
                         </div>
                         <div class="col-md-6 form-floating">
-                          <input type="text" class="form-control" required="" placeholder="Apellido">
+                          <input type="text" name="apellido" class="form-control" required="" placeholder="Apellido">
                           <label for="floatingInput">Ingresa tu apellido</label>
                         </div>
                         <div class="form-floating mb-2">
-                          <input type="email" class="form-control" required="" placeholder="Email">
+                          <input type="email" name="email" class="form-control" required="" placeholder="Email">
                           <label for="floatingInput">Introduce tu email</label>
                         </div>
                         <div class="form-floating mb-2">
-                          <input type="text" class="form-control" required="" placeholder="Nombre de usuario">
+                          <input type="text" name="username" class="form-control" required="" placeholder="Nombre de usuario">
                           <label for="floatingInput">Crea tu nombre de usuario</label>
                         </div>
                         <div class="col-md-6 form-floating mb-2">
-                          <input type="password" class="form-control" required="" placeholder="Contraseña">
+                          <input type="password" name="password" class="form-control" required="" placeholder="Contraseña">
                           <label for="floatingInput">Crea tu contraseña</label>
                         </div>
                         <div class=" col-md-6 form-floating mb-2">
-                          <input type="password" class="form-control" required="" placeholder="Repita su contraseña">
+                          <input type="password" name="passconfirm" class="form-control" required="" placeholder="Repita su contraseña">
                           <label for="floatingInput">Vuelve a ingresar tu contraseña</label>
                         </div>
                         <div id="passwordHelpBlock" class="form-text">
@@ -91,7 +91,7 @@
                           </div>
                         </div>
                         <div class="col-12">
-                          <button class="btn btn-success" type="submit">Comenzar</button>
+                          <input type="submit" class="btn btn-success" value="Comenzar">
                         </div>
                       </form>
     
