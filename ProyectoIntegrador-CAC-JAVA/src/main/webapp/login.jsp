@@ -50,13 +50,13 @@
                         <span class="h1">¡Bienvenido!</span>
                     </div>
                     <div class="d-flex py-5 justify-content-center">
-                        <form>
+                        <form action="LoginController" method="post">
                             <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Email</label>
+                            <input type="text" name="username" class="form-control" id="floatingInput" placeholder="Nombre de usuario">
+                            <label for="floatingInput">Nombre de usuario</label>
                             </div>
                             <div class="form-floating mb-3">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Contraseña">
                             <label for="floatingPassword">Contraseña</label>
                             </div>
             
