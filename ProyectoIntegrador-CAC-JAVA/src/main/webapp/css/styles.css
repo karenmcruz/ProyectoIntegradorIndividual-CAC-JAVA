@@ -1,0 +1,13 @@
+.navbar{ 
+    background-image: var(--bs-gradient);
+    background-color: #343a40; 
+}
+
+.navbar-expand-lg{
+    background-color: #343a40;
+}
+
+.navbar-dark{
+    background-color: #343a40;
+}
+
