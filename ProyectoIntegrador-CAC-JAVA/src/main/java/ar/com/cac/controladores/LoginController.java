@@ -35,7 +35,7 @@ public class LoginController extends HttpServlet {
 		try {
 			PrintWriter out = response.getWriter();
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/usuarioscac", "root", "123456");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/usuarioscac", "root", "");
 			
 			String username = request.getParameter("username");
 			String password = request.getParameter("password");
